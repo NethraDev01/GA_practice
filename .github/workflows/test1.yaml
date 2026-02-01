@@ -11,7 +11,7 @@ jobs:
               run: echo "kk Devopsb5 12345" > devops4.txt    
               
             - name: display the content of a file
-              run: cat devops.txt
+              run: cat devops4.txt
 
             - name: disply the date
               run: date
@@ -20,7 +20,7 @@ jobs:
               run: ls -lrth
               
             - name: rename the file
-              run: mv devops.txt dev.txt
+              run: mv devops4.txt dev.txt
               
             - name: disply the current directory 
               run: pwd  
