@@ -8,7 +8,7 @@ jobs:
         
         steps: 
             - name: create a one file
-              run: echo "kk Devops 12345" > devops.txt    
+              run: echo "kk Devopsb5 12345" > devops.txt    
               
             - name: display the content of a file
               run: cat devops.txt
