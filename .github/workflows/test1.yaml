@@ -1,6 +1,6 @@
 name: file operations in github
 
-on: push
+on: workflow_dispatch
 
 jobs: 
     file:
@@ -8,7 +8,7 @@ jobs:
         
         steps: 
             - name: create a one file
-              run: echo "kk Devopsb5 12345" > devops.txt    
+              run: echo "kk Devopsb5 12345" > devops4.txt    
               
             - name: display the content of a file
               run: cat devops.txt
