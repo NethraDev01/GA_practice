@@ -1,6 +1,6 @@
 name: simple build and deploy
 on: 
-    workflow_dispatch:
+  workflow_dispatch:
 jobs:
     full:
        runs-on: ubuntu-latest
