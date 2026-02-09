@@ -14,4 +14,4 @@ jobs:
                cache: maven
           
           
-           - run: mvn cean package  
+           - run: mvn clean package  
